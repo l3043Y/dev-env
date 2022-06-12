@@ -1,0 +1,223 @@
+- name: Install googlechrome
+  win_chocolatey:
+    name: googlechrome
+    version: '102.0.5005.115'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install notepadplusplus.install
+  win_chocolatey:
+    name: notepadplusplus.install
+    version: '8.4.2'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install python
+  win_chocolatey:
+    name: python
+    version: '3.10.5'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install vlc
+  win_chocolatey:
+    name: vlc
+    version: '3.0.17.4'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install git.install
+  win_chocolatey:
+    name: git.install
+    version: '2.36.0'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install 7zip
+  win_chocolatey:
+    name: 7zip
+    version: '21.7'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install notepadplusplus
+  win_chocolatey:
+    name: notepadplusplus
+    version: '8.4.2'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install openssh
+  win_chocolatey:
+    name: openssh
+    version: '8.0.0.1'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install nodejs.install
+  win_chocolatey:
+    name: nodejs.install
+    version: '18.3.0'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install vscode
+  win_chocolatey:
+    name: vscode
+    version: '1.68.0'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install jdk8
+  win_chocolatey:
+    name: jdk8
+    version: '8.0.211'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install nodejs
+  win_chocolatey:
+    name: nodejs
+    version: '18.3.0'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install vscode.install
+  win_chocolatey:
+    name: vscode.install
+    version: '1.68.0'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install spotify
+  win_chocolatey:
+    name: spotify
+    version: '1.1.87.612'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install chocolateygui
+  win_chocolatey:
+    name: chocolateygui
+    version: '1.0.0'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install nodejs-lts
+  win_chocolatey:
+    name: nodejs-lts
+    version: '16.15.1'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install openssl.light
+  win_chocolatey:
+    name: openssl.light
+    version: '3.0.3'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install wireshark
+  win_chocolatey:
+    name: wireshark
+    version: '3.6.5'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install openssl
+  win_chocolatey:
+    name: openssl
+    version: '1.1.1.1500'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install anydesk
+  win_chocolatey:
+    name: anydesk
+    version: '7.0.10'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install openjdk
+  win_chocolatey:
+    name: openjdk
+    version: '18.0.1.1'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install vlc.install
+  win_chocolatey:
+    name: vlc.install
+    version: '3.0.17.4'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install openvpn
+  win_chocolatey:
+    name: openvpn
+    version: '2.5.7'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install anaconda3
+  win_chocolatey:
+    name: anaconda3
+    version: '2022.05'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install openjdk11
+  win_chocolatey:
+    name: openjdk11
+    version: '11.0.15'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install vnc-viewer
+  win_chocolatey:
+    name: vnc-viewer
+    version: '6.22.315'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install openjdk8jre
+  win_chocolatey:
+    name: openjdk8jre
+    version: '8.332.09'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install pdfxchangeeditor
+  win_chocolatey:
+    name: pdfxchangeeditor
+    version: '9.3.361.20220508'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install telegram
+  win_chocolatey:
+    name: telegram
+    version: '3.7.3'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install bitwarden
+  win_chocolatey:
+    name: bitwarden
+    version: '2022.5.1'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install utorrent
+  win_chocolatey:
+    name: utorrent
+    version: '3.5.5.45271'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
+
+- name: Install docker-desktop
+  win_chocolatey:
+    name: docker-desktop
+    version: '4.9.0'
+    source: https://community.chocolatey.org/api/v2/
+    state: present
