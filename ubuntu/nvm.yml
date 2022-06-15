@@ -1,0 +1,13 @@
+---
+  - name: Download file from a file path
+    get_url:
+      url: https://raw.githubusercontent.com/creationix/nvm/master/install.sh
+      dest: "{{dl_soft}}"
+    
+  - name: install nvm
+    script: "{{dl_soft}}/install.sh"
+
+  - name: source
+    shell: "source /home/{{username}}/.profile"
+    args:
+      executable: /bin/bash

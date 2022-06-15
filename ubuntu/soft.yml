@@ -1,0 +1,27 @@
+---
+  - name: Install package from Snap Store
+    community.general.snap:
+      name:
+        - telegram-desktop
+        - code
+        - vlc
+        - emote
+        - notepadqq
+      state: present
+
+  - name: Install general package
+    package:
+      name:
+        - git
+        - git-lfs
+        - conf-editor
+        - notepadqq
+        - sshpass
+      state: present
+
+  - name: install openvpn
+    package:  
+      name: 
+        - openvpn 
+        - network-manager-openvpn 
+        - network-manager-openvpn-gnome

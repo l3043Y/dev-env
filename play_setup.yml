@@ -1,0 +1,29 @@
+---
+- hosts: localhost
+  connection: local
+  name: Setup dev env
+  become: true
+  vars:
+    username: l3043y
+    dl_soft: "/home/l3043y/Downloads/soft"
+
+  tasks:
+    - name: install softwares
+      include_tasks: ubuntu/soft.yml
+
+    - name: create download soft
+      file:
+        path: "{{dl_soft}}"
+        state: directory
+      become_user: "{{username}}"
+
+    - name: install nvm
+      ansible.builtin.include_tasks: ubuntu/nvm.yml
+
+    - name: install docker
+      include_tasks: ubuntu/docker.yml
+      vars:
+        container_count: 1
+        default_container_name: docker
+        default_container_image: hello-world
+        default_container_command: sleep 1d
